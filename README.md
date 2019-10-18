@@ -2,10 +2,20 @@
 
 :sparkles: 学习Shell Scripts
 
+## Reference
+
+- [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/index.html)
+
+需要考虑的问题：
+
+- （1） 权限：执行shell script是否需要root权限
+- （2） 目录：`cd /var/log || { echo "change directory fail"}` 切换目录可能会执行失败
+
 In the simplest terms, a **shell script** is a file containing a series of commands. **The shell** reads this file and carries out the commands as though they have been entered directly on the command line.
 
 <!-- TOC -->
 
+- [Reference](#reference)
 - [1. How to Write a Shell Script](#1-how-to-write-a-shell-script)
   - [1.1. Script File Format](#11-script-file-format)
   - [1.2. Executable Permissions](#12-executable-permissions)
