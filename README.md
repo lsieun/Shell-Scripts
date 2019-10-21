@@ -13,6 +13,8 @@
 
 In the simplest terms, a **shell script** is a file containing a series of commands. **The shell** reads this file and carries out the commands as though they have been entered directly on the command line.
 
+Sometimes, you come across a command line tool that offers limited functionality on its own, but when used with other tools, you realize its actual potential.(例如，`seq`命令)
+
 <!-- TOC -->
 
 - [Reference](#reference)
