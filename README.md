@@ -15,6 +15,12 @@ In the simplest terms, a **shell script** is a file containing a series of comma
 
 Sometimes, you come across a command line tool that offers limited functionality on its own, but when used with other tools, you realize its actual potential.(例如，`seq`命令)
 
+To list available valid login shells for use at time, type following command:
+
+```bash
+cat /etc/shells
+```
+
 <!-- TOC -->
 
 - [Reference](#reference)
