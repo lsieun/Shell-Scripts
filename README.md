@@ -1,17 +1,19 @@
-# Shell-Scripts
+# Shell-Scripts :sparkles:
 
-:sparkles: 学习Shell Scripts
+In the simplest terms, a **shell script** is a file containing a series of commands. **The shell** reads this file and carries out the commands as though they have been entered directly on the command line.
 
 ## Reference
 
 - [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/index.html)
+- [Computer Science from the Bottom Up](http://www.bottomupcs.com/index.xhtml)
+- [Linux Shell Scripting Tutorial (LSST) v2.0](https://bash.cyberciti.biz/guide/Main_Page)
+- [The Art of Unix Programming](http://www.catb.org/~esr/writings/taoup/html/index.html)
 
 需要考虑的问题：
 
 - （1） 权限：执行shell script是否需要root权限
 - （2） 目录：`cd /var/log || { echo "change directory fail"}` 切换目录可能会执行失败
 
-In the simplest terms, a **shell script** is a file containing a series of commands. **The shell** reads this file and carries out the commands as though they have been entered directly on the command line.
 
 Sometimes, you come across a command line tool that offers limited functionality on its own, but when used with other tools, you realize its actual potential.(例如，`seq`命令)
 
@@ -66,7 +68,7 @@ Let’s save our script file as `hello_world`.
 $ ls -l hello_world
 -rw-r--r-- 1 liusen liusen 60 Mar 31 15:47 hello_world
 $ chmod 755 hello_world
-$ ls -l hello_world 
+$ ls -l hello_world
 -rwxr-xr-x 1 liusen liusen 60 Mar 31 15:47 hello_world
 ```
 
@@ -77,7 +79,7 @@ There are two common permission settings for scripts: `755` for scripts that eve
 With the permissions set, we can now execute our script.
 
 ```bash
-$ ./hello_world 
+$ ./hello_world
 Hello World!
 ```
 
